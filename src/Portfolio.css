@@ -1,0 +1,48 @@
+.Portfolio {
+  width: 100%;
+}
+
+.d3-pen-container, .react-pen-container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pen {
+  width: 50vw;
+}
+
+.pen-description-container {
+  display: none;
+  visibility: hidden;
+}
+
+.pen-description {
+  font-size: 1.25em;
+}
+
+@media screen and (min-width: 700px) {
+  .pen-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .react-pen-container .pen-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .pen {
+    width: 50%;
+  }
+
+  .pen-description-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+  }
+}

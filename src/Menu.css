@@ -1,0 +1,35 @@
+.menu {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0 1em 0;
+}
+
+.menu-item {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+  margin: 0 2vw 0 2vw;
+}
+
+.menu-item:hover {
+  color: gray;
+}
+
+@media screen and (min-width: 700px) {
+  .menu-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      list-style: none;
+  }
+  .menu-item {
+    margin: 0 5vw 0 0;
+  }
+}
