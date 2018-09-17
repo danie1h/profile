@@ -7,7 +7,7 @@ A SPA providing a brief overview of myself including projects as well as contact
 React & CSS
 
 ## Demo
-Refer to [dhumphreys.co](dhumphreys.co) for a live demo.
+Refer to [dhumphreys.co](http://www.dhumphreys.co) for a live demo.
 
 ## Items In Progress
 * Test integration
