@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './App.css'
-import Menu from './Menu.js'
-import About from './About.js'
-import Portfolio from './Portfolio.js'
-import Contact from './Contact.js'
+import { Menu } from './Menu.js'
+import { About } from './About.js'
+import { Portfolio } from './Portfolio.js'
+import { Contact } from './Contact.js'
 
 class App extends Component {
   render () {
