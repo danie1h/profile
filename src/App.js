@@ -11,7 +11,7 @@ class App extends Component {
       <div className='App'>
         <Menu />
         <About />
-        <Portfolio />
+        <Portfolio reactPenList={this.props.reactPenList} d3PenList={this.props.d3PenList} />
         <Contact />
         <div className='Footer'>
           <p>&copy; 2018 Daniel Humphreys</p>
