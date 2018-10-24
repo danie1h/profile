@@ -1,5 +1,5 @@
-.Portfolio {
-  width: 100%;
+.portfolio {
+  margin: 0 2vw 0 2vw;
 }
 
 .d3-pen-container, .react-pen-container  {
@@ -8,8 +8,12 @@
   align-items: center;
 }
 
+.pen-container {
+  height: 600px
+}
+
 .pen {
-  width: 50vw;
+  width: 48vw;
 }
 
 .pen-description-container {
@@ -19,6 +23,8 @@
 
 .pen-description {
   font-size: 1.25em;
+  text-align: center;
+  padding: 0 2vw 0 2vw;
 }
 
 @media screen and (min-width: 700px) {
