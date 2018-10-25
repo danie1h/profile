@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import Profile from './profile.js'
 import Codepen from 'react-codepen-embed'
 import registerServiceWorker from './registerServiceWorker'
 
@@ -65,5 +65,5 @@ const reactPenList = reactPenListData.map(pen => { // create JSX output for all 
   )
 })
 
-ReactDOM.render(<App d3PenList={d3PenList} reactPenList={reactPenList} />, document.getElementById('root'))
+ReactDOM.render(<Profile d3PenList={d3PenList} reactPenList={reactPenList} />, document.getElementById('root'))
 registerServiceWorker()

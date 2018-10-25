@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import './App.css'
-import { Menu } from './Menu.js'
-import { About } from './About.js'
-import { Portfolio } from './Portfolio.js'
-import { Contact } from './Contact.js'
+import './profile.css'
+import { Menu } from './menu/menu.js'
+import { About } from './about/about.js'
+import { Portfolio } from './portfolio/portfolio.js'
+import { Contact } from './contact/contact.js'
 
-class App extends Component {
+class Profile extends Component {
   render () {
     return (
       <div className='App'>
@@ -13,12 +13,12 @@ class App extends Component {
         <About />
         <Portfolio reactPenList={this.props.reactPenList} d3PenList={this.props.d3PenList} />
         <Contact />
-        <div className='Footer'>
+        <footer>
           <p>&copy; 2018 Daniel Humphreys</p>
-        </div>
+        </footer>
       </div>
     )
   }
 }
 
-export default App
+export default Profile

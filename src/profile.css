@@ -4,7 +4,6 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.Footer {
-  display: flex;
-  justify-content: center;
+footer p {
+  text-align: center;
 }
